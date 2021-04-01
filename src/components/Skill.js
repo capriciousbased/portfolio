@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import odin from "../images/odin.png";
 import {
   faGithub,
   faCss3Alt,
@@ -99,13 +98,9 @@ const Skills = () => {
       </TileHolder>
       <OdinStyle>
         <h3>
-          I started Freecodcamp, teamtreehouse and the{" "}
-          <a href="https://www.theodinproject.com/home">
-            <img src={odin} alt="odin project" />
-            Odin Project
-          </a>{" "}
-          Beginning of 2020 and have continued studying 5-6 hours per day
-          everyday since, using weekends to create my projects.
+          I started Freecodcamp, team treehouse and Udemy online course
+          beginning of 2020 and have continued studying 5-6 hours per day
+          everyday, using weekends to create my projects.
         </h3>
       </OdinStyle>
       <ScrollTop />
@@ -127,7 +122,7 @@ const SkillStyle = styled.div`
     flex-direction: column-reverse;
   }
   @media (max-width: 780px) {
-    margin-top: 20%;
+    margin-top: 10%;
   }
   @media (max-width: 550px) {
     margin-top: 35%;
@@ -147,8 +142,9 @@ const TileHolder = styled.div`
   }
 `;
 const OdinStyle = styled.div`
-  width: 40%;
-  text-align: right;
+  width: 50%;
+  text-align: justify;
+  font-size: 20px;
   padding: 10%;
   margin-bottom: 15%;
   line-height: 1.8;

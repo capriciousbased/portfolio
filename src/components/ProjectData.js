@@ -1,4 +1,5 @@
 //import pics
+import motivity from "../images/motivity.png";
 import tindogapp from "../images/tindogapp.jpg";
 import clock from "../images/clock.png";
 import conf from "../images/conf.png";
@@ -10,6 +11,19 @@ import advice from "../images/advice-app.png";
 import scoreboard from "../images/scoreboard.png";
 import drumkit from "../images/drumkit.jpg";
 export const ProjectData = [
+  {
+    name: "Motivity - Find Happiness, one Activity at a Time!",
+    proImg: motivity,
+    assignment:
+      " Set up a React app to make users’ free-time more enjoyable using HTML 5, CSS 3, and React, axios, Material-ui.",
+    description:
+      " The mission of Motivity is to make users’ free-time more enjoyable. The idea was developed to counteract the inevitable weariness caused by Covid-19 lockdowns but the service will be equally valuable in post-Covid times.Based on React and Axios, the platform presents suggestions for events and activities that adhere to Covid-19 restrictions and regulations.Users can narrow down the selection via a keyword search function or by browsing the six main categories: online/offline; alone/with friends; indoors/outdoors.The service can be accessed as a guest user or by registering and thereby creating a profile for Motivity.The latter scenario is a future implementation where users will be able to create a personal profile page that displays a history of activities, a rating system as well as further suggestions based on previously selected activities and browsing behavior.",
+    future:
+      " I would like to add a Log in option with authentication and personal Dashboard.",
+    brief: "Motivity App",
+    website: "https://motivity-react-project.netlify.app/",
+    githubLink: "https://github.com/capriciousbased/portfolio",
+  },
   {
     name: "Tingdog App",
     proImg: tindogapp,
@@ -32,8 +46,8 @@ export const ProjectData = [
     future:
       " Updated to include Like/comment functionality, I need to create an add user section.",
     brief: "Advice App with an API",
-    website: "https://advice-appreact.netlify.app/",
-    githubLink: "https://github.com/capriciousbased/Advice-app-react",
+    website: "https://motivity-react-project.netlify.app/",
+    githubLink: "https://github.com/capriciousbased/Final-Project",
   },
   {
     name: "Scoreboard App",

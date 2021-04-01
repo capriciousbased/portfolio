@@ -8,8 +8,16 @@ import conf from "../images/conf.png";
 import clock from "../images/clock.png";
 import advice from "../images/advice-app.png";
 import lake from "../images/lake.png";
+import motivity from "../images/motivity.png";
 
 const projs = [
+  {
+    name: "Motivity - Find Happiness!",
+    skills: ["HTML 5", "CSS 3", "React", "axios", "Material-ui"],
+    img: motivity,
+    link: "https://capriciousbased.github.io/TinDog-app-with-Bootstrap4/",
+    github: "https://github.com/capriciousbased/TinDog-app-with-Bootstrap4",
+  },
   {
     name: "Tingdog App",
     skills: ["HTML 5", "CSS 3", "VanillaJS", "Bootstrap", "Responsive"],
